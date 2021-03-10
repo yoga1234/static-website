@@ -1,1 +1,24 @@
-/* responsive style will goes here */
+/* desktop large */
+@media screen and (min-width: 1920px) {
+  header {
+    grid-template-columns: 1fr 10fr 1fr;
+    width: 90%;
+  }
+  .mobile-logo {
+    margin: 0;
+  }
+  .main-header {
+    font-size: 31px;
+    text-align: left;
+  }
+  .main-content {
+    margin: auto;
+    width: 90%;
+  }
+  .content-header {
+    font-size: 60px;
+    line-height: 80px;
+    margin: 0;
+    width: 993px;
+  }
+}
