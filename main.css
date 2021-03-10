@@ -83,6 +83,7 @@ header {
   border-style: none none solid none;
   border-width: 1px;
   border-color: #000;
+  cursor: pointer;
   display: block;
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
@@ -90,6 +91,7 @@ header {
   letter-spacing: 1px;
   line-height: 15px;
   margin: auto;
+  outline: none;
   padding-bottom: 4.5px;
 }
 
@@ -97,6 +99,7 @@ header {
 .about-section {
   background-color : #000;
   margin-top: 52.5px;
+  padding-top: 81px;
 }
 .about-container {
   margin: auto;
@@ -124,6 +127,14 @@ footer {
   background-color: #000;
   padding-top: 81px;
   padding-bottom: 16px;
+}
+.footer-container {
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: 1fr;
+}
+.footer-container div:first-child {
+  grid-row: 2;
 }
 footer p {
   color: #fff;
