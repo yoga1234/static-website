@@ -117,6 +117,7 @@ header {
 .about-image-right {
   display: block;
   margin-left: auto;
+  margin-top: 10px;
 }
 /* footer */
 footer {
