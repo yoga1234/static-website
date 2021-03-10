@@ -3,11 +3,14 @@
   tablet: 601x962 - 1280x800
   desktop: 1024x768 - 1920x1080
 */
+/* fonts */
 @font-face {
   font-family: HomepageBaukasten-Book;
   src: url(./fonts/HomepageBaukasten-Book.woff);
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -38,6 +41,33 @@ header {
   font-family: 'Montserrat', sans-serif;
   font-size: 29px;
   font-weight: 300;
-  margin: auto;
+  margin: 0 auto 109px auto;
   width: 314px;
+}
+
+/* article */
+.article-content {
+  display: block;
+  margin: 0 auto 56px auto;
+  width: max-content;
+}
+.article-image {
+  width: 100%;
+}
+.article-header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 23px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  width: 190px;
+}
+.article-tag {
+  color: #727272;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1.1px;
+  line-height: 11px;
 }
