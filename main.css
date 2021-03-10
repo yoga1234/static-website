@@ -3,3 +3,25 @@
   tablet: 601x962 - 1280x800
   desktop: 1024x768 - 1920x1080
 */
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin: 0 auto 69px auto;
+  width: 95%;
+}
+.mobile-logo{
+  margin: auto;
+  padding-top: 28px;
+}
+.main-header {
+  font-family: HomepageBaukasten-Book, Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  padding-top: 26px;
+  text-align: center;
+}
