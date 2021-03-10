@@ -92,3 +92,44 @@ header {
   margin: auto;
   padding-bottom: 4.5px;
 }
+
+/* about */
+.about-section {
+  background-color : #000;
+  margin-top: 52.5px;
+}
+.about-container {
+  margin: auto;
+  width: 80%;
+}
+.about-text {
+  bottom: 20px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  width: 90%;
+}
+.about-image-right {
+  display: block;
+  margin-left: auto;
+}
+/* footer */
+footer {
+  background-color: #000;
+  padding-top: 81px;
+  padding-bottom: 16px;
+}
+footer p {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-bottom: 23px;
+  text-align: center;
+}
