@@ -3,10 +3,17 @@
   tablet: 601x962 - 1280x800
   desktop: 1024x768 - 1920x1080
 */
+@font-face {
+  font-family: HomepageBaukasten-Book;
+  src: url(./fonts/HomepageBaukasten-Book.woff);
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 * {
   padding: 0;
   margin: 0;
 }
+
+/* header */
 header {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
@@ -24,4 +31,13 @@ header {
   letter-spacing: 1px;
   padding-top: 26px;
   text-align: center;
+}
+
+/* content */
+.content-header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 29px;
+  font-weight: 300;
+  margin: auto;
+  width: 314px;
 }
