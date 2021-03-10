@@ -41,8 +41,13 @@ header {
   font-family: 'Montserrat', sans-serif;
   font-size: 29px;
   font-weight: 300;
+  line-height: 40px;
   margin: 0 auto 109px auto;
   width: 314px;
+}
+.underlined-text {
+  border-bottom: 1.5px solid #000;
+  padding-bottom: 3.5px;
 }
 
 /* article */
