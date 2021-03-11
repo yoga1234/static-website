@@ -63,6 +63,9 @@
     font-size: 31px;
     text-align: left;
   }
+  .mobile-logo {
+    padding-top: 32px
+  }
   .main-content {
     margin: auto;
     width: 90%;

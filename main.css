@@ -24,7 +24,9 @@ header {
   width: 95%;
 }
 .mobile-logo{
+  display: block;
   margin: auto;
+  max-width: 25px;
   padding-top: 28px;
 }
 .main-header {
