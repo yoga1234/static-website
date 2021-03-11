@@ -1,1 +1,2 @@
-// some script will goes here
+// Initialize AOS
+AOS.init();

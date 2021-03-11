@@ -9,10 +9,12 @@
   <link rel="icon" href="./images/top-icon.png" type="image/x-icon">
   <link rel="stylesheet" href="./main.css">
   <link rel="stylesheet" href="./responsive.css">
+  <!-- animate on scroll library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   
-  <header>
+  <header data-aos="fade-down">
     <picture>
       <source media="(min-width: 900px)" srcset="./images/large/logo-search-l.svg">
       <img class="mobile-logo" src="./images/small/logo-search-s.svg" alt="search">
@@ -25,9 +27,9 @@
   </header>
 
   <section class="main-content">
-    <h2 class="content-header">At AA Management, we innovate dynamic visuals for <span class="underlined-text">editorial</span>, <span class="underlined-text">advertising</span>, <span class="underlined-text">film</span> and <span class="underlined-text">other stuff</span>.</h2>
+    <h2 class="content-header" data-aos="fade-right">At AA Management, we innovate dynamic visuals for <span class="underlined-text">editorial</span>, <span class="underlined-text">advertising</span>, <span class="underlined-text">film</span> and <span class="underlined-text">other stuff</span>.</h2>
     <div class="article-container">
-      <article class="article-content">
+      <article class="article-content" data-aos="fade-up">
         <picture>
           <source media="(min-width: 900px)" srcset="./images/large/park-street-v9G8KNVtBhc-unsplash.png">
           <img class="article-image" src="./images/small/park-street-v9G8KNVtBhc-unsplash.png" alt="woman dancing">
@@ -35,7 +37,7 @@
         <h3 class="article-header">Charlotte Perriand for Aesop</h3>
         <p class="article-tag">EDITORIAL</p>
       </article>
-      <article class="article-content">
+      <article class="article-content" data-aos="fade-up">
         <picture>
           <source media="(min-width: 900px)" srcset="./images/large/sebastian-coman-travel-dtOTQYmTEs0-unsplash.png">
         <img class="article-image" src="./images/small/sebastian-coman-travel-dtOTQYmTEs0-unsplash.png" alt="sunglasses">
@@ -43,7 +45,7 @@
         <h3 class="article-header">Serena Hadid for Vogue Eyewear</h3>
         <p class="article-tag">EDITORIAL</p>
       </article>
-      <article class="article-content middle">
+      <article class="article-content middle" data-aos="fade-up">
         <picture>
           <source media="(min-width: 900px)" srcset="./images/large/hanna-postova-F7ayfiqDeMk-unsplash.png">
           <img class="article-image" src="./images/small/hanna-postova-F7ayfiqDeMk-unsplash.png" alt="woman sit">
@@ -51,7 +53,7 @@
         <h3 class="article-header">Jenson Fallon for Marc Jacobs</h3>
         <p class="article-tag">FILM</p>
       </article>
-      <article class="article-content">
+      <article class="article-content" data-aos="fade-up">
         <picture>
           <source media="(min-width: 900px)" srcset="./images/large/caroline-hernandez-nC9XgivSIzw-unsplash.png">
           <img class="article-image" src="./images/small/caroline-hernandez-nC9XgivSIzw-unsplash.png" alt="woman on window">
@@ -59,7 +61,7 @@
         <h3 class="article-header">Jen Perry for Harrods</h3>
         <p class="article-tag">OTHERS</p>
       </article>
-      <article class="article-content">
+      <article class="article-content" data-aos="fade-up">
         <picture>
           <source media="(min-width: 900px)" srcset="./images/large/emma-valerio-pmqkOXadmyI-unsplash.png">
           <img class="article-image" src="./images/small/emma-valerio-pmqkOXadmyI-unsplash.png" alt="woman standing on beach">
@@ -70,7 +72,7 @@
     </div>
   </section>
 
-  <div class="more-section">
+  <div class="more-section" data-aos="fade-up-right">
     <button class="more-button">MORE</button>
   </div>
 
@@ -78,15 +80,13 @@
     <div class="about-container">
       <picture>
         <source media="(min-width: 900px)" srcset="./images/large/haley-lawrence-6ugQ978v-zg-unsplash.png">
-        <img src="./images/small/haley-lawrence-6ugQ978v-zg-unsplash.png" alt="girl sleeping">
-    </picture>
-      <!-- <img src="./images/small/haley-lawrence-6ugQ978v-zg-unsplash.png" alt="girl sleeping"> -->
-      <p class="about-text">AA Management is an independent artist management firm and creative agency based in Singapre. Founded in 1994, the company has been built around a visual language that interweaves the values of our founders, artists, and team with the unique character of our commercial clients.</p>
+        <img data-aos="fade-right" src="./images/small/haley-lawrence-6ugQ978v-zg-unsplash.png" alt="girl sleeping">
+      </picture>
+      <p class="about-text" data-aos="fade-up">AA Management is an independent artist management firm and creative agency based in Singapre. Founded in 1994, the company has been built around a visual language that interweaves the values of our founders, artists, and team with the unique character of our commercial clients.</p>
       <picture>
         <source media="(min-width: 900px)" srcset="./images/large/kinga-cichewicz-T5qJdkPwCgE-unsplash.png">
-        <img class="about-image-right" src="./images/small/kinga-cichewicz-T5qJdkPwCgE-unsplash.png" alt="girl standing">
+        <img data-aos="fade-left" class="about-image-right" src="./images/small/kinga-cichewicz-T5qJdkPwCgE-unsplash.png" alt="girl standing">
       </picture>
-      <!-- <img class="about-image-right" src="./images/small/kinga-cichewicz-T5qJdkPwCgE-unsplash.png" alt="girl standing"> -->
     </div>
   </section>
   <footer>
@@ -103,6 +103,7 @@
       </div>
     </div>
   </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="./main.js"></script>
 </body>
 </html>
