@@ -2,7 +2,7 @@
   "name": "AA Management Apps",
   "short_name": "AA Management",
   "description": "A Management Application",
-  "start_url": "/index.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background": "#2b3131",
   "theme_color": "#2b3131",
