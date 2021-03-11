@@ -40,40 +40,6 @@ self.addEventListener("install", function(event) {
 })
 
 
-
-// self.addEventListener('fetch', function(event) {
-//   event.respondWith(
-//     caches.match(event.request, { cacheName: CACHE_NAME})
-//     .then(function(response) {
-//       if(response) {
-//         return response
-//       }
-
-//       let fetchRequest = event.request.clone();
-
-//       return fetch(fetchRequest).then(
-//         function(response) {
-
-//           if(response.status === 0) {
-//             console.log('response is 0')
-//           }
-//           if(!reponse || response.status !== 200) {
-//             return response;
-//           }
-
-//           let responseToCache = response.clone();
-//           caches.open(CACHE_NAME)
-//           .then(function(cache) {
-//             cache.put(event.request, responseToCache)
-//           });
-
-//           return response;
-//         }
-//       )
-//     })
-//   )
-// })
-
 self.addEventListener("fetch", function(event) {
   event.respondWith(
     caches
