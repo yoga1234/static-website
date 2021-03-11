@@ -53,13 +53,16 @@ header {
 }
 
 /* article */
-.article-content {
-  display: block;
-  margin: 0 auto 56px auto;
-  width: max-content;
-}
-.article-image {
+.main-content {
   width: 100%;
+}
+.article-container {
+  margin: auto;
+  width: 90%;
+}
+.article-content {
+  width: max-content;
+  margin: 0 auto 56px auto;
 }
 .article-header {
   font-family: 'Montserrat', sans-serif;
