@@ -44,8 +44,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .footer-left p,
-  .footer-right p {
+  .footer-left a,
+  .footer-right a {
     font-size: 14px;
   }
   .footer-left {
@@ -121,14 +121,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .footer-left p {
+  .footer-left a {
     text-align: left;
     font-size: 18px;
   }
   .footer-left {
     margin-top: 0;
   }
-  .footer-right p {
+  .footer-right a {
     font-size: 18px;
   }
 }

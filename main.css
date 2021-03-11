@@ -126,7 +126,7 @@ header {
 footer {
   background-color: #000;
   padding-top: 81px;
-  padding-bottom: 16px;
+  padding-bottom: 35px;
 }
 .footer-container {
   display: grid;
@@ -136,12 +136,23 @@ footer {
 .footer-container div:first-child {
   grid-row: 2;
 }
-footer p {
+footer a {
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-size: 10px;
   font-weight: 600;
   letter-spacing: 1px;
-  padding-bottom: 23px;
+  line-height: 23px;
+  padding-bottom: 10px;
   text-align: center;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: .3s ease;
+}
+footer a:hover {
+  text-decoration-color: #fff;
+}
+.footer-left,
+.footer-right {
+  display: grid;
 }
