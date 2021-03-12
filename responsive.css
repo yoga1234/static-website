@@ -142,6 +142,7 @@
     grid-template-columns: 1fr 1fr;
     width: 90%;
     margin: auto;
+    padding-top: 0;
   }
   .footer-container div:first-child {
     grid-row: 1;
